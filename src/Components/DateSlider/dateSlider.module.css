@@ -1,0 +1,12 @@
+.dateSlider{
+    margin: 0px 5px !important;
+    text-align: center;
+}
+.date{
+    width: 100% !important;
+    z-index: 1;
+
+}
+.date button{
+    display: none !important;
+}

@@ -1,0 +1,99 @@
+.topheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90px;
+    background-color: #fff;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    padding: 1px 10px;
+}
+.topheader > div:first-child{
+    flex: 0 0 20%;
+}
+.topheader > div:nth-child(2){
+    flex: 0 0 60%;
+}
+.topheader > div:last-child{
+    flex: 0 0 20%;
+    text-align: center;
+}
+.prevIcon button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.prevIcon img, .scanIcon img{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.title{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    line-height: 2;
+}
+.title span:nth-of-type(2){
+    font-size: 14px !important;
+    font-weight: 400;
+}
+.orderDetails{
+    width: 95%;
+    margin: auto;
+}
+.dateSlider{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* Slider Css */
+.dateSlider .date{
+    width: 92% !important;
+    margin-right: 10px;
+    border: 1.8px solid #000;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.dateSlider .today{
+    background-color: black;
+    color: #fff;
+}
+.dateSlider div:nth-child(even) span:nth-child(odd){
+    background-color: red;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* Slider Css */
+
+@media (min-width:200px) and (max-width:400px) {
+    /* .dateSlider .date{
+        width: 94% !important;
+        font-size: 13px;
+        padding: 3px 2px;
+    }
+    .dateSlider div:nth-child(even) span:nth-child(odd){
+        padding: 1px 4px;
+    } */
+
+    .prevIcon img, .scanIcon img{
+        width: 25px;
+        height: 25px;
+    }
+    .title{
+        font-size: 12px;
+        line-height: 1.3;
+    }
+
+}

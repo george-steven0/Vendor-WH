@@ -1,0 +1,68 @@
+.qrscan{
+    padding: 10px 0px;
+}
+.topHeader{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.arrowIcon{
+    flex: 0 0 18%;
+    text-align: center;
+}
+.arrowIcon button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.arrowIcon img{
+    width: 15px;
+    height: 15px;
+}
+.title{
+    flex:  0 0 75%;
+    text-align: center;
+    font-weight: 500;
+}
+.qrContent{
+    text-align: center;
+}
+
+.qrContent img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.scanBtn button{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 25px;
+    font-size: 16px;
+}
+.scanBtn a{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 25px 8px 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media (min-width:450px) {
+    .qrContent img{
+        width: 270px;
+        height: 270px;
+        margin: auto;
+    }
+} 

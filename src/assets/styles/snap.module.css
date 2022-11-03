@@ -1,0 +1,106 @@
+.topheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    background-color: #fff;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    padding: 1px 10px;
+}
+.topheader > div:first-child {
+    flex: 0 0 15%;
+}
+.topheader > div:last-child {
+    flex: 0 0 75%;
+    text-align: center;
+}
+.prevIcon button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.prevIcon img{
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.title{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.title > div:first-child{
+    flex: 0 0 100%;
+}
+
+.title > div:first-child span:first-child{
+    padding: 8px 10px;
+    color: #000;
+    font-weight: 500;
+    /* background-color: #35D187; */
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+/* SnapShot Content */
+.snapContent{
+    margin-top: 75px;
+}
+.snapLogo{
+    text-align: center;
+}
+.snapLogo img{
+    width: 170px;
+    height: 170px;
+}
+.submitBtn{
+    text-align: center;
+    margin-top: 70px;
+}
+.submitBtn a{
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 16px;
+    width: 40%;
+}
+/* SnapShot Content */
+
+
+@media (min-width:200px) and (max-width:300px){
+    .title > div:first-child span:first-child{
+        font-size: 12px;
+    }
+
+    .snapLogo img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .submitBtn a{
+        width: 70%;
+    }
+}
+
+@media (min-width:600px){
+
+    .submitBtn a{
+        width: 30%;
+    }
+}

@@ -1,0 +1,112 @@
+.transferedAprroval{
+    padding: 10px 0px;
+}
+.topHeader{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.arrowIcon{
+    flex: 0 0 20%;
+    text-align: center;
+}
+.arrowIcon button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.arrowIcon img{
+    width: 15px;
+    height: 15px;
+}
+.title{
+    flex:  0 0 60%;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.title img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+/* Transfer Approval */
+.itemDetailsContainer{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin: 50px auto;
+    background-color: #232057;
+    text-align: center;
+    color: #fff;
+}
+.itemInfo{
+    width: 95%;
+    margin:0px auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.itemQuantity{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.itemQuantity span{
+    display: inline-block;
+}
+.itemQuantity span:first-child{
+    margin-right: 10px;
+}
+.itemQuantity span:last-child{
+    background-color: #304FFF;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.submitBtn{
+    text-align: center;
+    margin-top: 70px;
+}
+.submitBtn a{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 180px;
+    text-decoration: none;
+}
+
+@media (min-width:200px) and (max-width:300px){
+    .itemInfo{
+        font-size: 14px;
+    }
+    .submitBtn a{
+        width: 160px;
+    }
+}
+
+@media (min-width:550px){
+    .itemInfo{
+        font-size: 18px;
+    }
+    .submitBtn a{
+        width: 220px;
+    }
+}
+/* Transfer Approval */

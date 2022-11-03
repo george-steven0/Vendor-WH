@@ -1,0 +1,233 @@
+.PCLDetails{
+    padding: 10px 0px;
+}
+.topheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #232057;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    padding: 1px 10px;
+}
+.prevIcon button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.prevIcon img, .scanIcon img{
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.title{
+    color: #fff;
+}
+
+
+.prcNotice{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
+    font-weight: 500;
+}
+/* Slider Css */
+.productSlider h4{
+    color: #fff;
+    font-weight: 400;
+}
+/* Slider Css */
+
+.productDetails{
+    background-color: #232057;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.productDetails > div:first-child {
+    flex: 0 0 55%;
+}
+
+.productDetails > div:nth-child(2) {
+    flex: 0 0 45%;
+    text-align: left;
+}
+
+
+
+.productDetails > div:last-child {
+    flex: 0 0 100%;
+    text-align: left;
+}
+.productDetails > div:last-child span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.PCLQr{
+    width: 100% !important;
+    flex: 0 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+.PCLQr p{
+    flex: 0 0 100%;
+}
+.PCLQr img{
+    background-color: #fff;
+    border-radius: 4px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.detailsContent p:first-child{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.detailsContent p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.detailsContent span{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFFCC;
+    margin: 0px;
+}
+.areaDetails{
+    text-align: left;
+}
+.areaDetails p{
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.avSp, .qtSp,.poq{
+    width: 20px;
+    font-size: 14px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+}
+.avSp{
+    background-color: #304FFF;
+    color: #fff;
+}
+.poq{
+    background-color: #35D187;
+    color: #fff;
+}
+
+.logNumCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.logNumCont > p{
+    flex: 0 0 47%;
+}
+.notice{
+    text-align: center;
+    margin-top: 55px;
+}
+.notice span{
+    color: #000000;
+    font-weight: 500;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+
+/* Scan Product */
+.scanProduct{
+    text-align: center;
+    margin-top: 40px;
+}
+.scanProduct button{
+    display: block;
+    text-decoration: none;
+    margin: 30px auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 25px;
+    font-size: 16px;
+    width: 200px;
+}
+/* Scan Product */
+
+@media (min-width:200px) and (max-width:350px){
+    .title{
+        font-size: 14px;
+    }
+    .productDetails{
+        padding: 15px 10px;
+    }
+    .detailsContent p {
+        font-size: 16px;
+    }
+    .detailsContent span{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #fff;
+        line-height: 1.4;
+    }
+    .productDetails > div:first-child {
+        flex: 0 0 55%;
+    }
+    
+    .productDetails > div:nth-child(2) {
+        flex: 0 0 38%;
+        font-size: 13px !important;
+    }
+    .logNumCont > p{
+        flex: 0 0 100%;
+    }
+
+    .scanProduct button{
+        width: 140px;
+    }
+    .PCLQr p{
+        font-size: 14px;
+    }
+    .PCLQr span{
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width:200px) and (max-width:400px){
+    .productDetails{
+        padding: 15px;
+    }
+}

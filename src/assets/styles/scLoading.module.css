@@ -1,0 +1,110 @@
+.scanLoading{
+    padding: 10px 0px;
+}
+.topHeader{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.arrowIcon{
+    flex: 0 0 18%;
+    text-align: center;
+}
+.arrowIcon button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.arrowIcon img{
+    width: 15px;
+    height: 15px;
+}
+.title{
+    flex:  0 0 75%;
+    text-align: center;
+    font-weight: 500;
+}
+.qrContent{
+    text-align: center;
+}
+
+.qrContent img{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+}
+.scanBtn{
+    text-align: center;
+}
+.scanBtn button{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 12px 25px;
+    width: 50%;
+    font-size: 16px;
+}
+.scanBtn a{
+    display: block;
+    margin:30px auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 25px 8px 25px;
+    font-size: 16px;
+    text-decoration: none;
+    width: 50%;
+}
+.barCodeIcon{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.barCodeIcon img{
+    width: 35%;
+    margin: auto;
+}
+.scanTitle{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #232057;
+}
+
+.loadingBar{
+    width: 70%;
+    height: 5px;
+    margin:auto;
+    background-color: #ddd;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.loadingFill{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 40%;
+    width: 20%;
+    background-color: #232057;
+    border-radius: 8px;
+    animation: filling 1s ease infinite alternate
+}
+@keyframes filling {
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(3);
+    }   
+}

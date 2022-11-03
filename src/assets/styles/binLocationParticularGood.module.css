@@ -1,0 +1,190 @@
+.topheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    background-color: #232057;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    padding: 1px 10px;
+}
+.topheader > div:first-child {
+    flex: 0 0 15%;
+}
+.topheader > div:last-child {
+    flex: 0 0 75%;
+    text-align: center;
+}
+.prevIcon button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.prevIcon img, .scanIcon img{
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.title{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title > div:first-child{
+    flex: 0 0 20%;
+}
+
+.title > div:first-child span:first-child{
+    padding: 8px 10px;
+    color: #fff;
+    background-color: #35D187;
+    border-radius: 4px;
+}
+
+.title > div:last-child{
+    flex: 0 0 70%;
+    text-align: center;
+}
+
+.currentStock{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: left; */
+}
+.currentStock > div{
+    width: fit-content;
+    text-align: left;
+    margin: auto;
+}
+.currentStock label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.currentStock input{
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.submitBtn{
+    text-align: center;
+    margin-top: 70px;
+}
+.submitBtn a{
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin: auto;
+    width: 40%;
+    text-decoration: none;
+}
+
+
+
+@media (min-width:200px) and (max-width:300px) {
+    .topheader > div:first-child {
+        flex: 0 0 20%;
+    }
+    .topheader > div:last-child {
+        flex: 0 0 80%;
+        text-align: center;
+    }
+    .prevIcon img{
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+    }
+    .title > div:first-child{
+        flex: 0 0 20%;
+    }
+    
+    .title > div:first-child span:first-child{
+        padding: 4px 5px;
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .title > div:last-child{
+        flex: 0 0 77%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .submitBtn a{
+        width: 70%;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    .submitBtn a{
+        width: 50%;
+    }
+}
+
+@media (min-width:470px) and (max-width:750px){
+    .title > div:first-child{
+        flex: 0 0 20%;
+    }
+    
+    .title > div:first-child span:first-child{
+        padding: 8px 10px;
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .title > div:last-child{
+        flex: 0 0 60%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .currentStock input{
+        padding: 10px 25px;
+    }
+}
+
+@media (min-width:750px) and (max-width:1150px){
+    .title{
+        justify-content: flex-start;
+    }
+    .title > div:first-child{
+        flex: 0 0 30%;
+    }
+    
+    .title > div:first-child span:first-child{
+        padding: 8px 10px;
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .title > div:last-child{
+        flex: 0 0 40%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .currentStock input{
+        padding: 10px 25px;
+    }
+}

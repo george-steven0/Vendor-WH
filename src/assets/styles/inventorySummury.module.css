@@ -1,0 +1,176 @@
+.topheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    background-color: #fff;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    padding: 1px 10px;
+}
+.topheader > div:first-child {
+    flex: 0 0 15%;
+}
+.topheader > div:last-child {
+    flex: 0 0 75%;
+    text-align: center;
+}
+.prevIcon button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.prevIcon img{
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.title{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.title > div:first-child{
+    flex: 0 0 100%;
+}
+
+.title > div:first-child span:first-child{
+    padding: 8px 10px;
+    color: #000;
+    font-weight: 500;
+    /* background-color: #35D187; */
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+/* detailsHeader */
+.detailsHeader{
+    background-color: #232057;
+    color: #fff;
+    padding: 12px 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.detailsHeader > div{
+    flex: 0 0 50%;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.detailsHeader > div:last-child{
+    margin-bottom: 0px;
+}
+.detailsHeader > div p{
+    margin: 0px;
+    margin-top: 8px;
+}
+.detailsHeader > div span{
+    display: inline-block;
+}
+.detailsHeader > div span:first-child{
+    margin-right: 10px;
+    background-color: #35D187;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+.detailsHeader > div:nth-child(2) span:first-child{
+    background-color: #304FFF;
+}
+.detailsHeader > div:last-child span:first-child{
+    background-color: #EF0909;
+}
+/* detailsHeader */
+
+/* Transaction History */
+.transHistory{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.transHistory > div {
+    padding: 8px;
+}
+.transHistory > div:first-child{
+    flex: 0 0 70%;
+    text-align: left;
+}
+.transHistory > div:first-child button{
+    border: none;
+    text-align: center;
+    margin-left: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.transHistory > div:first-child button span svg{
+    margin-left: 3px;
+    background-color: transparent;
+    color: #000;
+}
+.historyCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.transHistory > div:last-child{
+    flex: 0 0 30%;
+    text-align: right;
+    padding-right: 20px;
+}
+.transHistory > div:last-child a{
+    text-decoration: none;
+    color: #304FFF;
+    font-size: 14px;
+}
+
+.submitBtn{
+    text-align: center;
+    margin-top: 70px;
+}
+.submitBtn a{
+    display: block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin: auto;
+    width: 40%;
+}
+/* Transaction History */
+
+
+@media (min-width:200px) and (max-width:300px){
+    .title > div:first-child span:first-child{
+        font-size: 13px;
+    }
+    .detailsHeader > div{
+        font-size: 14px;
+    }
+    .historyCont img{
+        width: 15px;
+        height: 15px;
+    }
+    .transHistory > div:first-child select{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .transHistory > div:last-child a{
+        font-size: 12px;
+    }
+    .submitBtn a{
+        width: 65%;
+    }
+}

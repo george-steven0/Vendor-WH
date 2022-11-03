@@ -1,0 +1,89 @@
+.qrscan{
+    padding: 20px 0px;
+}
+.topHeader{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.arrowIcon{
+    flex: 0 0 15%;
+    text-align: center;
+}
+.arrowIcon button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.arrowIcon img{
+    width: 15px;
+    height: 15px;
+}
+.title{
+    flex:  0 0 70%;
+    text-align: center;
+    font-weight: 500;
+}
+.reportIcon{
+    flex:  0 0 15%;
+}
+.reportIcon img{
+    width: 25px;
+    height: 25px;
+}
+.qrContent{
+    text-align: center;
+}
+
+.qrContent img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.scanBtn button{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    width: 150px;
+}
+.scanBtn a{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #232057;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 25px 8px 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media (min-width:200px) and (max-width:400px){
+    .arrowIcon{
+        flex: 0 0 15px;
+    }
+    .title{
+        flex: 0 0 70%;
+    }
+    .reportIcon{
+        flex:  0 0 15%;
+        text-align: right;
+    }
+}
+
+@media (min-width:450px) {
+    .qrContent img{
+        width: 270px;
+        height: 270px;
+        margin: auto;
+    }
+} 
